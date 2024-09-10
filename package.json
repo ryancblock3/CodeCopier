@@ -1,0 +1,31 @@
+{
+  "name": "codecopier-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool to copy code to markdown files",
+  "main": "dist/index.js",
+  "bin": {
+    "codecopier": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "codecopier-cli": "file:",
+    "glob": "^7.2.0",
+    "micromatch": "^4.0.8",
+    "ora": "^5.4.1",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.2.0",
+    "@types/micromatch": "^4.0.9",
+    "@types/node": "^20.11.24",
+    "@types/yargs": "^17.0.32",
+    "typescript": "^5.4.5"
+  }
+}
