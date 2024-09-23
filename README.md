@@ -70,11 +70,3 @@ During the file selection process, CodeCopier displays a progress bar to show ho
 ## Error Handling
 
 CodeCopier provides detailed error messages and, when run with the verbose flag, includes stack traces to help diagnose any issues that may occur during operation.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-[MIT License](LICENSE)
